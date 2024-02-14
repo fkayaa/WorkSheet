@@ -18,7 +18,7 @@ export default class ArrayList extends LightningElement {
 
     },
     {
-    name: "Zambak"
+    name: "Zambak" ,
    
     imgURL :"https://media.istockphoto.com/id/536772045/tr/foto%C4%9Fraf/st-josephs-lily.jpg?s=612x612&w=0&k=20&c=85DcbJ--iMCwPlW9N94Qai9P5vDa6TggIxPUV9PzZS4="
     

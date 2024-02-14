@@ -2,17 +2,32 @@
     <lightning-card title="Flowers" icon-name="utility:classic_interface">
         <div class="slds-m-around_medium">
 
+<ul> 
 
 
-     <template iterator:it={flowerList}>
+    <template iterator:it={flowerList}>
+
+               <li key={it.value}>
 
 
-                          <div key={it}>{it.name}</div>
-                          <div key={it}><a href={it.imgURL}></a></div>
 
-     </template>
+                 <h1>{it.value.name}</h1>
+
+                 <img src={it.value.imgURL} width="300" height="250">
 
 
+                     </li>
+   
+      
+
+</template>
+
+
+
+
+</ul>
+
+    
 
 
 
