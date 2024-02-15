@@ -1,0 +1,22 @@
+h2 {
+
+    background-color: aquamarine;
+    color: coral;
+}
+
+h1 {
+    color: bisque;
+}
+
+span {
+    color: aqua;
+}
+
+c-styling-hooks-child {
+
+    color :green;
+
+  /*  --bg-color : purple;
+    --color : pink; */
+
+}

@@ -1,0 +1,12 @@
+p {
+    font-size: medium;
+}
+
+h1 {
+    color: purple;
+}
+p {
+
+    background-color: var(--bg-color,black);
+    color: var(--color,white);
+}
