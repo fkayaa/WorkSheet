@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Car" icon-name="utility:travel_and_places">
+        <div class="slds-m-around_medium">
+
+<h1>Car</h1>
+<h2>BMW</h2>
+<lightning-input label="Motor Modeli" placeholder="Lütfen Motor Modelini Giriniz" onchange={motor}></lightning-input>
+<br><br>
+<div class="slds-box">
+
+    <c-car-engine motor-modeli={model}></c-car-engine>
+
+</div>
+
+
+        </div>
+    </lightning-card>
+    
+</template>

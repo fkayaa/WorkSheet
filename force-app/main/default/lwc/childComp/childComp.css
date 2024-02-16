@@ -1,0 +1,11 @@
+
+
+h1 {
+
+    color: chocolate;
+}
+p {
+
+    background-color: var(--bg-color,red);
+    color: var(--color,white);
+}
